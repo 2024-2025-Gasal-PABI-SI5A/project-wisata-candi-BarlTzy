@@ -30,11 +30,14 @@ class MainApp extends StatelessWidget {
             surface: Colors.blueGrey[50],
           ),
           useMaterial3: true),
+
       // home: DetailScreen(
       //   candi: candiList[0],
       // ),
-      home: ProfileScreen(),
-      // home: SignInScreen(),
+
+      // home: ProfileScreen(),
+
+      home: SignInScreen(),
     );
   }
 }
